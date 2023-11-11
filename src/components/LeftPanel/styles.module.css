@@ -1,0 +1,73 @@
+.leftPanelContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 2px grey solid;
+}
+.topContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    margin: 3rem auto 0;
+}
+.logoText{
+    font-size:2.5vw;
+    font-weight: 500;
+    color:#E4E4E4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: 2px grey solid;
+    border-bottom: 2px grey solid;
+    padding: 0.3rem 0.2rem;
+}
+.topicListContainer{
+    width: 100%;
+    margin-top: 2rem;
+}
+.topicListContainer p{
+  font-size: 1rem;
+    padding:0.8rem 0.5rem;
+    color:#404040;
+    border-radius: 7px;
+    margin: 0.5rem 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.topContainer p:hover{
+    background-color: rgba(238, 243, 255, 0.888);
+    cursor: pointer;
+}
+.bottomContainer{
+    height: auto;
+    width: 80%;
+    display: flex;
+    margin: 1rem auto;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.bottomContainer .profileImage{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin-right: 0.5rem;
+}
+.bottomContainer .profileImage img{
+    border-radius: 50%;
+    
+}
+.bottomContainer .profileDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 0.2rem;
+    font-weight: 600;
+    
+}
+.bottomContainer .profileDetails .profileEmail{
+    font-size: 0.9rem;
+    color: grey;
+}

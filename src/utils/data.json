@@ -1,0 +1,262 @@
+[
+    {
+        "name": "Sam Altman",
+        "riskLevel": "Medium",
+        "completed": false,
+        "triggerReason": "IP Change",
+        "inQueueFor": "4 days",
+        "dateAddedOn": "12 Oct, 2023",
+        "previouslyReviewed": {
+            "flag": true,
+            "date": "29 Oct, 2023"
+        },
+        "email": "samaltman234@email.com"
+    },
+    {
+        "name": "Emily Johnson",
+        "riskLevel": "High",
+        "completed": true,
+        "actionReason": "Flagged",
+        "timeToClose": "2 days",
+        "dateAddedOn": "15 Oct, 2023",
+        "actionTakenBy": {
+            "name": "Daniel Clark",
+            "email": "daniel@juno.com"
+        },
+        "email": "emilyjohnson213@email.com"
+    },
+    {
+        "name": "John Smith",
+        "riskLevel": "Low",
+        "completed": true,
+        "actionReason": "Closed",
+        "timeToClose": "6 days",
+        "dateAddedOn": "10 Oct, 2023",
+        "actionTakenBy": {
+            "name": "Sophie Adams",
+            "email": "sophie@email.com"
+        },
+        "email": "johnsmithxmena@email.com"
+    },
+    {
+        "name": "Linda Davis",
+        "riskLevel": "Medium",
+        "completed": false,
+        "triggerReason": "FIFO",
+        "inQueueFor": "3 days",
+        "dateAddedOn": "13 Oct, 2023",
+        "previouslyReviewed": {
+            "flag": true,
+            "date": "30 Oct, 2023"
+        },
+        "email": "lindadaviscvse@email.com"
+    },
+    {
+        "name": "Tom Wilson",
+        "riskLevel": "High",
+        "completed": true,
+        "actionReason": "SOI Requested",
+        "timeToClose": "5 days",
+        "dateAddedOn": "11 Oct, 2023",
+        "actionTakenBy": {
+            "name": "Oliver Johnson",
+            "email": "oliver@domain.com"
+        },
+        "email": "tom@email.com"
+    },
+    {
+        "name": "Sarah Lee",
+        "riskLevel": "Low",
+        "completed": false,
+        "triggerReason": "IP Change",
+        "inQueueFor": "7 days",
+        "dateAddedOn": "9 Oct, 2023",
+        "previouslyReviewed": {
+            "flag": true,
+            "date": "31 Oct, 2023"
+        },
+        "email": "sarah@email.com"
+    },
+    {
+        "name": "Michael Anderson",
+        "riskLevel": "High",
+        "completed": true,
+        "actionReason": "Cleared",
+        "timeToClose": "2 days",
+        "dateAddedOn": "16 Oct, 2023",
+        "actionTakenBy": {
+            "name": "Elena Rodriguez",
+            "email": "elena@sample.com"
+        },
+        "email": "michael@email.com"
+    },
+    {
+        "name": "Emma Brown",
+        "riskLevel": "Medium",
+        "completed": false,
+        "triggerReason": "FIFO",
+        "inQueueFor": "4 days",
+        "dateAddedOn": "14 Oct, 2023",
+        "previouslyReviewed": {
+            "flag": true,
+            "date": "1 Nov, 2023"
+        },
+        "email": "emma@email.com"
+    },
+    {
+        "name": "Daniel Clark",
+        "riskLevel": "Low",
+        "completed": true,
+        "actionReason": "Flagged",
+        "timeToClose": "6 days",
+        "dateAddedOn": "10 Oct, 2023",
+        "actionTakenBy": {
+            "name": "Sophie Adams",
+            "email": "sophie@email.com"
+        },
+        "email": "daniel@email.com"
+    },
+    {
+        "name": "Olivia Martinez",
+        "riskLevel": "High",
+        "completed": false,
+        "triggerReason": "IP Change",
+        "inQueueFor": "3 days",
+        "dateAddedOn": "17 Oct, 2023",
+        "previouslyReviewed": {
+            "flag": true,
+            "date": "2 Nov, 2023"
+        },
+        "email": "olivimartinezaali@email.com"
+    },
+    {
+        "name": "Ralph Johnson",
+        "riskLevel": "Low",
+        "completed": true,
+        "actionReason": "Closed",
+        "timeToClose": "5 days",
+        "dateAddedOn": "18 Oct, 2023",
+        "actionTakenBy": {
+            "name": "Sophia Miller",
+            "email": "sophia@domain.com"
+        },
+        "email": "ralph@email.com"
+    },
+    {
+        "name": "Hannah Baker",
+        "riskLevel": "Medium",
+        "completed": false,
+        "triggerReason": "FIFO",
+        "inQueueFor": "4 days",
+        "dateAddedOn": "19 Oct, 2023",
+        "previouslyReviewed": {
+            "flag": true,
+            "date": "3 Nov, 2023"
+        },
+        "email": "hannah@email.com"
+    },
+    {
+        "name": "James Thompson",
+        "riskLevel": "High",
+        "completed": true,
+        "actionReason": "SOI Requested",
+        "timeToClose": "3 days",
+        "dateAddedOn": "20 Oct, 2023",
+        "actionTakenBy": {
+            "name": "Olivia Green",
+            "email": "olivia@sample.com"
+        },
+        "email": "james@email.com"
+    },
+    {
+        "name": "Sophie Wright",
+        "riskLevel": "Low",
+        "completed": false,
+        "triggerReason": "IP Change",
+        "inQueueFor": "2 days",
+        "dateAddedOn": "21 Oct, 2023",
+        "previouslyReviewed": {
+            "flag": true,
+            "date": "4 Nov, 2023"
+        },
+        "email": "sophie@email.com"
+    },
+    {
+        "name": "David Miller",
+        "riskLevel": "Medium",
+        "completed": true,
+        "actionReason": "Cleared",
+        "timeToClose": "4 days",
+        "dateAddedOn": "22 Oct, 2023",
+        "actionTakenBy": {
+            "name": "Emma Harris",
+            "email": "emma@domain.com"
+        },
+        "email": "david@email.com"
+    },
+    {
+        "name": "Isabella Collins",
+        "riskLevel": "High",
+        "completed": false,
+        "triggerReason": "FIFO",
+        "inQueueFor": "5 days",
+        "dateAddedOn": "23 Oct, 2023",
+        "previouslyReviewed": {
+            "flag": true,
+            "date": "5 Nov, 2023"
+        },
+        "email": "isabella@email.com"
+    },
+    {
+        "name": "Nathan Stewart",
+        "riskLevel": "Low",
+        "completed": true,
+        "actionReason": "Flagged",
+        "timeToClose": "6 days",
+        "dateAddedOn": "24 Oct, 2023",
+        "actionTakenBy": {
+            "name": "Sophie Adams",
+            "email": "sophie@email.com"
+        },
+        "email": "nathan@email.com"
+    },
+    {
+        "name": "Victoria Lopez",
+        "riskLevel": "Medium",
+        "completed": false,
+        "triggerReason": "IP Change",
+        "inQueueFor": "7 days",
+        "dateAddedOn": "25 Oct, 2023",
+        "previouslyReviewed": {
+            "flag": true,
+            "date": "6 Nov, 2023"
+        },
+        "email": "victoria@email.com"
+    },
+    {
+        "name": "Gabriel Rivera",
+        "riskLevel": "High",
+        "completed": true,
+        "actionReason": "SOI Requested",
+        "timeToClose": "2 days",
+        "dateAddedOn": "26 Oct, 2023",
+        "actionTakenBy": {
+            "name": "Olivia Green",
+            "email": "olivia@sample.com"
+        },
+        "email": "gabriel@email.com"
+    },
+    {
+        "name": "Madison Foster",
+        "riskLevel": "Low",
+        "completed": false,
+        "triggerReason": "FIFO",
+        "inQueueFor": "3 days",
+        "dateAddedOn": "27 Oct, 2023",
+        "previouslyReviewed": {
+            "flag": true,
+            "date": "7 Nov, 2023"
+        },
+        "email": "madison@email.com"
+    }
+]
