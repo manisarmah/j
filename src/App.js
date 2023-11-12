@@ -6,11 +6,13 @@ import Flagging from "./pages/Flagging";
 import Onboarding from "./pages/Onboarding";
 import SourceOfIncome from "./pages/SourceOfIncome";
 import UAR from "./pages/UAR";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <>
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/monitoring" element={<MonitoringPanel />} />
         <Route path="/overview" element={<Overview />} />
         <Route path="/flagging" element={<Flagging />} />

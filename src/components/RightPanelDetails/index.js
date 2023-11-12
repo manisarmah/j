@@ -9,13 +9,9 @@ import { useNavigate } from "react-router-dom";
 export default function MonitoringPanelDetails() {
   const [status, setStatus] = useState("pending");
   const [activePopup, setActivePopup] = useState(false);
-  const triggerReasons = [
-    "Hard Flag",
-    "Temp Flag",
-    "Restricted Unflag",
-    "Un flag",
-    "Reviewed",
-  ];
+  const triggerReasons = ["IP Change", "FIFO"];
+  const actionReasons = ["Flagged", "Closed", "SOI Requested", "Cleared"];
+  const reasons = status === "pending" ? triggerReasons : actionReasons;
   const nav = useNavigate();
   const riskLevels = ["Low", "Medium", "High"];
   const handleCloseAccount = () => {
@@ -30,7 +26,10 @@ export default function MonitoringPanelDetails() {
   const handleRiskLevelChange = (e) => {
     setRiskLevelVal(e.target.value);
   };
-
+  const [reason, setReason] = useState("");
+  const handleReason = (e) => {
+    setReason(e.target.value);
+  };
   const [searchText, setSearchText] = useState("");
   const handleSearchText = (e) => {
     setSearchText(e.target.value);
@@ -77,16 +76,17 @@ export default function MonitoringPanelDetails() {
           />
         </div>
         <div className={styles.filterDiv}>
-          <select name="triggerReason" id="triggerReason">
-            <option style={{ color: "grey" }}>
+          <select
+            name="triggerReason"
+            id="triggerReason"
+            value={reason}
+            onChange={handleReason}
+          >
+            <option style={{ color: "grey" }} value="">
               {status === "pending" ? "Trigger Reason" : "Action Reason"}
             </option>
-            {triggerReasons.map((triggerReason, idx) => {
-              return (
-                <option value={triggerReason.toLowerCase()}>
-                  {triggerReason}
-                </option>
-              );
+            {reasons.map((reason, idx) => {
+              return <option value={reason.toLowerCase()}>{reason}</option>;
             })}
           </select>
         </div>
@@ -113,7 +113,8 @@ export default function MonitoringPanelDetails() {
         <RightPanelPrimaryDetails
           items={data}
           status={status}
-          filterBy={riskLevelVal}
+          filterByRisk={riskLevelVal}
+          filterByReason={reason}
           searchBy={searchText}
         />
       </div>

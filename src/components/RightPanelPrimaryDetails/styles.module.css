@@ -23,3 +23,6 @@
 .content::-webkit-scrollbar{
     display: none;
 }
+.greyed{
+    color:grey;
+}

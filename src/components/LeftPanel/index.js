@@ -11,7 +11,7 @@ export default function LeftPanel() {
     "Source of Income",
     "UAR",
   ];
-  const [activeIndex, setActiveIndex] = useState(2);
+  const [activeIndex, setActiveIndex] = useState();
   const navigate = useNavigate();
   const handleClick = (idx) => {
     setActiveIndex(idx);
